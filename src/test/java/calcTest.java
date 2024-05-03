@@ -1,5 +1,7 @@
-package src;
+package src.test.java;
 import org.junit.*;
+
+import src.main.java.calc;
 
 import java.io.File;
 import java.io.FileNotFoundException;
