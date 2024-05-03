@@ -5,22 +5,19 @@ import java.util.Scanner;
 
 public class calc {
     public static void main(String[] args) {
-        String filePath = "numbers.txt";
+        String filePath = "src/main/recources/numbers.txt";
         
         try {
             File file = new File(filePath);
             Scanner scanner = new Scanner(file);
-            
-            // Считываем числа из файла
+
             String[] numbersArray = scanner.nextLine().split(" ");
-            
-            // Вызываем функции для работы с числами
+
             int min = _min(numbersArray);
             int max = _max(numbersArray);
             int sum = _sum(numbersArray);
             int mult = _mult(numbersArray);
-            
-            // Выводим результаты
+
             System.out.println("Минимальное: " + min);
             System.out.println("Максимальное: " + max);
             System.out.println("Сумма: " + sum);

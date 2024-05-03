@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class calcTest {
     @Test
     public void test1(){
-        String testFilePath = "test1.txt";
+        String testFilePath = "src/test/recources/test1.txt";
         try {
             File file = new File(testFilePath);
             Scanner scanner = new Scanner(file);
@@ -28,7 +28,7 @@ public class calcTest {
 
     @Test
     public void test2(){
-        String testFilePath = "test2.txt";
+        String testFilePath = "src/test/recources/test2.txt";
         try {
             File file = new File(testFilePath);
             Scanner scanner = new Scanner(file);
@@ -42,7 +42,7 @@ public class calcTest {
 
     @Test
     public void test3(){
-        String testFilePath = "test3.txt";
+        String testFilePath = "src/test/recources/test3.txt";
         try {
             File file = new File(testFilePath);
             Scanner scanner = new Scanner(file);
@@ -56,7 +56,7 @@ public class calcTest {
 
     @Test
     public void multTest(){
-        String testFilePath = "test4.txt";
+        String testFilePath = "src/test/recources/test4.txt";
         try {
             File file = new File(testFilePath);
             Scanner scanner = new Scanner(file);
@@ -70,7 +70,7 @@ public class calcTest {
 
     @Test
     public void mintimeTest(){
-        String testFilePath = "test5.txt";
+        String testFilePath = "src/test/recources/test5.txt";
         try {
             File file = new File(testFilePath);
             Scanner scanner = new Scanner(file);
@@ -85,7 +85,7 @@ public class calcTest {
 
     @Test
     public void maxtimeTest(){
-        String testFilePath = "test6.txt";
+        String testFilePath = "src/test/recources/test6.txt";
         try {
             File file = new File(testFilePath);
             Scanner scanner = new Scanner(file);
@@ -100,7 +100,7 @@ public class calcTest {
     
     @Test
     public void sumtimeTest(){
-        String testFilePath = "test7.txt";
+        String testFilePath = "src/test/recources/test7.txt";
         try {
             File file = new File(testFilePath);
             Scanner scanner = new Scanner(file);
@@ -115,7 +115,7 @@ public class calcTest {
 
     @Test
     public void multtimeTest(){
-        String testFilePath = "test8.txt";
+        String testFilePath = "src/test/recources/test8.txt";
         try {
             File file = new File(testFilePath);
             Scanner scanner = new Scanner(file);
@@ -130,7 +130,7 @@ public class calcTest {
     
     @Test
     public void testEmptyFile() {
-        String filename = "test9.txt";
+        String filename = "src/test/recources/test9.txt";
         createEmptyFile(filename);
         calc.main(new String[]{filename});
 
