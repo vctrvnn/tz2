@@ -18,7 +18,7 @@ jobs:
 
       - name: Run tests
         run: |
-         javac -cp src\lib\junit-platform-console-standalone-1.11.0-M1.jar src/*.java
+          javac -cp lib\junit-platform-console-standalone-1.11.0-M1.jar src/*.java
           javac src/*.java
           java -cp src calcTest
 
