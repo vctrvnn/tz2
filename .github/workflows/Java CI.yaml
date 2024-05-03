@@ -16,10 +16,13 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      - name: Run tests
+      - name: Install Maven
         run: |
-          javac -cp lib\junit-platform-console-standalone-1.11.0-M1.jar src/*.java
-          javac src/*.java
-          java -cp src calcTest
+          sudo apt-get update
+          sudo apt-get install -y maven
 
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
 
+      - name: Run tests
+        run: mvn test
