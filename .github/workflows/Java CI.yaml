@@ -18,7 +18,7 @@ jobs:
 
       - name: Run tests
         run: |
-          javac *.java
-          java calcTest
+          javac src/*.java
+          java -cp src calcTest
 
 
