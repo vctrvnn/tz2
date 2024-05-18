@@ -4,4 +4,4 @@
 График для задания:
 ![Время выполнения программы](plot.png)
 
-[![CI](https://github.com/vctrvnn/tz2/actions/workflows/JavaCI.yaml/badge.svg?branch=main)](https://github.com/vctrvnn/tz2/actions/workflows/JavaCI.yaml)
+[![CI](https://github.com/vctrvnn/tz2/actions/workflows/JavaCI.yaml/badge.svg?branch=main)](https://github.com/vctrvnn/tz2/actions/workflows/JavaCI.yaml).
